@@ -1,9 +1,14 @@
 <?php
 /*
     **Plugin Name: Mailer Plugin
+    **Plugin URI:  https://github.com/Gsouzabd/Mailer-Plugin
     **Description: Mlovi - Mailer plugin for woocommerce
-    **Version: 1.0.4
+    **Version: 1.0.5
     **Author: Gabriel Souza - git:@gsouzabd | Mlovi Desenvolvimento e Soluções Web
+    **Author URI: https://github.com/Gsouzabd/
+    ** WC requires at least: 3.0
+
+
     **Text Tomain: mailer_plugin
 */
 
