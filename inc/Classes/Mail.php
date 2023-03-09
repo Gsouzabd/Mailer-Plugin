@@ -15,7 +15,7 @@ class Mail{
         $mail->SMTPAuth = true;
         $mail->Port = 587;
         $mail->CharSet = "UTF-8";
-        $mail->Username = 'noreply@mlovi.com.br';
+        $mail->Username = 'noreply2@mlovi.com.br';
         $mail->Password = 'Mlwebpass0110!@#';                       //SMTP password
 
 
@@ -29,7 +29,7 @@ class Mail{
  
  
             //Recipients
-            $mail->setFrom('noreply@mlovi.com.br', $nameSite);
+            $mail->setFrom('noreply2@mlovi.com.br', $nameSite);
             $mail->addAddress($customerEmail);     //Add a recipient
 
 
@@ -66,7 +66,7 @@ class Mail{
         $mail->SMTPAuth = true;
         $mail->Port = 587;
         $mail->CharSet = "UTF-8";
-        $mail->Username = 'noreply@mlovi.com.br';
+        $mail->Username = 'noreply2@mlovi.com.br';
         $mail->Password = 'Mlwebpass0110!@#';                       //SMTP password
 
 
@@ -80,7 +80,7 @@ class Mail{
  
  
             //Recipients
-            $mail->setFrom('noreply@mlovi.com.br', "Site - {$nameSite}");
+            $mail->setFrom('noreply2@mlovi.com.br', "Site - {$nameSite}");
             $mail->addAddress($adminEmail);     //Add a recipient
 
 
